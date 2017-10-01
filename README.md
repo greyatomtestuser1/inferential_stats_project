@@ -21,3 +21,5 @@ Lets review some of the concepts taught in the class. At the end of the assignme
 
 For this exercise, we will use the House Prices dataset, which we have already discussed in the session. You can read about the dataset description [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
+By completing this project you have an opportunity to win 350 points
+
