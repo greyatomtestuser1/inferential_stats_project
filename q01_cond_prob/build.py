@@ -3,8 +3,8 @@ from __future__ import division
 
 import pandas as pd
 
-df = pd.read_csv('./data/house_pricing.csv')
+df = pd.read_csv('data/house_pricing.csv')
 
 def cond_prob(df=df):
-    # Enter code here
+    # Enter Code Here
     return conditional_prob
