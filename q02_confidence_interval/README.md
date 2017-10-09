@@ -24,5 +24,5 @@ where $\sigma$ is the sample standard deviation
 
 | Return | dtype | description |
 | --- | --- | --- | 
-| confidence_interval | float | lower(1st)  limit of confidence interval returned as a float |
-| confidence_interval | float | upper(2nd) limit of confidence interval returned as a float |
+| lower limit of confidence interval | float | lower(1st) limit of confidence interval returned as a float |
+| upper limit of confidence interval | float | upper(2nd) limit of confidence interval returned as a float |
