@@ -3,7 +3,7 @@
 Let's say that we're picking Neighborhoods from our dataset, and removing each one that we pick. What are the odds of picking three houses successively in OldTown without replacement in a row ?
 
 ## Write a function `cond_prob` that 
-* Calculates the conditional probability of picking 3 houses successively in OldTwon
+* Calculates the conditional probability of picking 3 houses successively in OldTown
 
 ## Parameters:
 
