@@ -4,11 +4,10 @@ In the class we calculated the confidence interval for `SalePrice`, lets try and
 
 *Note*: when not using the population standard deviation, find confidence interval as:
 
->$Estimate \pm (z-value) * (Standard Error)$
+__Estimate = (z-value) * (Standard Error)__
+__Standard Error = sigma/sqrt(n)__
 
->$Standard Error = \sigma/\sqrt n$
-
-where $\sigma$ is the sample standard deviation
+where sigma is the sample standard deviation
 
 ## Write a function `confidence_interval()` that
 * Calculates the Confidence interval for `GrLivArea`
