@@ -4,8 +4,8 @@ In the class we calculated the confidence interval for `SalePrice`, lets try and
 
 *Note*: when not using the population standard deviation, find confidence interval as:
 
-__Estimate = (z-value) * (Standard Error)__
-__Standard Error = sigma/sqrt(n)__
+* __Estimate = (z-value) * (Standard Error)__
+* __Standard Error = sigma/sqrt(n)__
 
 where sigma is the sample standard deviation
 
