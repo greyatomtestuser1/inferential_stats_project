@@ -1,8 +1,12 @@
-## Task 4:  Chi-Square test of Independence
+# Chi-Square Test of Independence
 
 Perform a chi-square test to test independence of variables `LandSlope` and `SalePrice` in the IOWA housing dataset. `SalePrice` isn't a categorical variable, but we can divide it into three categories - High, medium, low using pandas qcut [function](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.qcut.html).
 
-The function should return the result of the test at a 95% signifigance level.
+## Write a function `chi_square()` that
+* Returns the p-value
+* The Boolean result of Chi2-test
+
+** Note - Use pandas qcut function to divide `SalePrice` into three equidistant categories - High, medium, low 
 
 ### Parameters:
 
@@ -15,4 +19,5 @@ The function should return the result of the test at a 95% signifigance level.
 
 | Return | dtype | description |
 | --- | --- | --- |
-| test_result | tuple | p-value and result of our chi2-test(true or false) |
+| p_value | float | p-value |
+| test_result | numpy.bool|result of our chi2-test(true or false) |

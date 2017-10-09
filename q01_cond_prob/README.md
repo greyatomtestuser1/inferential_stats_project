@@ -1,6 +1,9 @@
-# Task 1: Find probability of getting 3 Houses in OldTown in a row
+# Find probability of getting 3 Houses in OldTown in a row
 
-Let's say that we're picking Neighborhoods from our dataset, and removing each one that we pick. What are the odds of picking three houses successively in OldTown without replacement in a row ?
+Let's say we're picking houses from our dataset, and removing each one that we pick. What are the odds of picking three houses successively in OldTown without replacement in a row ?
+
+## Write a function `cond_prob` that 
+* Calculates the conditional probability of picking 3 houses successively in OldTown
 
 ## Parameters:
 
