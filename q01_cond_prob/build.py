@@ -5,6 +5,7 @@ import pandas as pd
 
 df = pd.read_csv('data/house_pricing.csv')
 
-def cond_prob(df=df):
+
+def cond_prob(df):
     # Enter Code Here
-    return conditional_prob
+
