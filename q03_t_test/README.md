@@ -2,7 +2,7 @@
 
 In the class we tested if house prices in OldTown are different than the mean price. Lets now check if the Living Area (`GrLivArea`) is significantly different than the mean `GrLivArea` area of the population as well.
 
-* Null Hypothesis: The mean of Living area of houses in OldTown is the same as the population mean.y
+* Null Hypothesis: The mean of Living area of houses in OldTown is the same as the population mean.
 * Alternate Hypothesis: The mean of Living area of houses in OldTown is different than the population mean.
 
 Test the above hypothesis at 95% significance level and return True if we do not reject the null hypothesis.
