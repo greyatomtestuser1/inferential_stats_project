@@ -5,7 +5,7 @@ In the class we tested if house prices in OldTown are different than the mean pr
 * Null Hypothesis: The mean of Living area of houses in OldTown is the same as the population mean.
 * Alternate Hypothesis: The mean of Living area of houses in OldTown is different than the population mean.
 
-Test the above hypothesis at 95% significance level and return True if we do not reject the null hypothesis.
+Test the above hypothesis at 90% significance level and return True if we do not reject the null hypothesis.
 
 ## Write a function `t_statistic()` that
 * Returns p-value
