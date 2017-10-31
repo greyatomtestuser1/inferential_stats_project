@@ -1,8 +1,8 @@
 # Find the confidence interval for the population mean given a sample distribution
 
-In the class we calculated the confidence interval for `SalePrice`, lets try and make a similar one for `GrLivArea`, but this time we won't be using the population standard deviation (as it is not available in most cases).
+In the class we calculated the confidence interval for `SalePrice`, lets try and make a similar one for `GrLivArea`, but this time we will consider given data as sample rather than population.
 
-*Note*: when not using the population standard deviation, find confidence interval as:
+*Hint*: when not using the population standard deviation, find confidence interval as:
 
 * __Estimate = (z-value) * (Standard Error)__
 * __Standard Error = sigma/sqrt(n)__
@@ -10,7 +10,7 @@ In the class we calculated the confidence interval for `SalePrice`, lets try and
 where sigma is the sample standard deviation
 
 ## Write a function `confidence_interval()` that
-* Calculates the Confidence interval for `GrLivArea`
+* Calculates the 90% confidence interval for `GrLivArea` considering the dataset as sample.
 
 ### Parameters:
 
